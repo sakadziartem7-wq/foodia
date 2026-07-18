@@ -12,7 +12,10 @@
     &__form {
         display: flex;
         gap: 12px;
+    }
 
+    hr {
+        border-top: 1px solid rgba(240, 51, 40, 0.20);
     }
 
     &__input {
@@ -37,22 +40,22 @@
 
     &__text {
         width: 524px;
-        height: 24px;
         align-self: stretch;
         color: #5C5C5C;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
-        margin: 16px 0 0;
+        margin: 8px 0 32px;
 
     }
 
     &__button {
+        width: 102px;
+        height: 44px;
         padding: 12px 24px;
         color: #fdfdff;
         font-size: 14px;
-        font-style: normal;
         font-weight: 400;
         line-height: 20px;
         color: #FDFDFD;
@@ -92,7 +95,7 @@
         font-weight: 400;
         line-height: 120%;
         transition: color 0 .3s;
-
+        margin: 18px 0 14px 0;
         &:hover {
             color: #f03328;
         }
@@ -100,11 +103,8 @@
 
     &__column-title {
         width: 230px;
-        height: 19px;
-        align-self: stretch;
         color: #1F1F1F;
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 120%;
         margin-bottom: 16px;
@@ -126,6 +126,21 @@
     }
 
     &__lang-copy {
+        color: #A6A7AB;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
         margin-left: auto;
     }
+
+    &__lang-item {
+        color:  #5C5F66;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+
+    }
+
 }

@@ -37,7 +37,6 @@
 }
 .food__title {
   margin-bottom: 26px;
-  width: 219px;
   height: 37px;
   color: #000;
   font-size: 31px;
@@ -46,22 +45,20 @@
   line-height: 120%;
 }
 .food__btn {
-  margin-right: 20px;
-  width: 132px;
-  height: 44px;
+  padding: 10px 24px;
   border-radius: 38px;
   color: #FFF;
   background: #F03328;
   border: 2px solid #F03328;
   cursor: pointer;
   transition: all 0.3s;
+  flex-shrink: 0;
 }
 .food__btn:hover {
   background: transparent;
 }
 .food__titl {
   margin: 0 276px;
-  width: 746px;
   height: 66px;
   color: #1F1F1F;
   text-align: center;
@@ -72,8 +69,6 @@
 }
 .food__text {
   margin: 18px 276px;
-  width: 852px;
-  height: 60px;
   align-self: stretch;
   color: #5C5C5C;
   text-align: center;

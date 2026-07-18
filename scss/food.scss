@@ -40,30 +40,30 @@
         width: calc(33.333% - 17px);
         border-radius: 18px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
-         background: #fff;
+        background: #fff;
     }
 
     &__title {
         margin-bottom: 26px;
-        width: 219px;
         height: 37px;
         color: #000;
         font-size: 31px;
         font-style: normal;
         font-weight: 500;
         line-height: 120%;
+       
+      
     }
 
     &__btn {
-        margin-right: 20px;
-        width: 132px;
-        height: 44px;
+        padding: 10px 24px;
         border-radius: 38px;
          color: #FFF;
         background: #F03328;
          border: 2px solid #F03328;
         cursor: pointer;
         transition: all 0.3s;
+        flex-shrink: 0;
 
     &:hover {
         background:transparent;
@@ -74,7 +74,6 @@
   
     &__titl {
         margin: 0 276px;
-        width: 746px;
         height: 66px;
         color: #1F1F1F;
         text-align: center;
@@ -86,8 +85,6 @@
 
     &__text {
         margin: 18px 276px;
-        width: 852px;
-        height: 60px;
         align-self: stretch;
         color:#5C5C5C;
         text-align: center;

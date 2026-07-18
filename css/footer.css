@@ -12,6 +12,9 @@
   display: flex;
   gap: 12px;
 }
+.footer hr {
+  border-top: 1px solid rgba(240, 51, 40, 0.2);
+}
 .footer__input {
   padding: 12px;
   border: 1px solid #D0D5DD;
@@ -32,20 +35,20 @@
 }
 .footer__text {
   width: 524px;
-  height: 24px;
   align-self: stretch;
   color: #5C5C5C;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  margin: 16px 0 0;
+  margin: 8px 0 32px;
 }
 .footer__button {
+  width: 102px;
+  height: 44px;
   padding: 12px 24px;
   color: #fdfdff;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 20px;
   color: #FDFDFD;
@@ -79,17 +82,15 @@
   font-weight: 400;
   line-height: 120%;
   transition: color 0 0.3s;
+  margin: 18px 0 14px 0;
 }
 .footer__link:hover {
   color: #f03328;
 }
 .footer__column-title {
   width: 230px;
-  height: 19px;
-  align-self: stretch;
   color: #1F1F1F;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 120%;
   margin-bottom: 16px;
@@ -107,7 +108,19 @@
   padding: 0;
 }
 .footer__lang-copy {
+  color: #A6A7AB;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
   margin-left: auto;
+}
+.footer__lang-item {
+  color: #5C5F66;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
 }
 
 /*# sourceMappingURL=footer.css.map */
