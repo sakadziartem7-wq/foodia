@@ -8,6 +8,13 @@
   gap: 84px;
   padding: 84px 0 102px;
 }
+.advantages__images {
+  max-width: 578px;
+}
+.advantages__list {
+  margin: 0;
+  padding: 0;
+}
 .advantages__intem {
   display: flex;
   align-items: center;

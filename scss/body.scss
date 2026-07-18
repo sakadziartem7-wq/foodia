@@ -1,22 +1,21 @@
 body {
-  margin: 0;
-  background: rgba(255, 158, 12, 0.20);
+    margin: 0;
+    background: rgba(255, 158, 12, 0.20);
 
-  * {
-    box-sizing: border-box;
-    font-family: "Nunito", sans-serif;
-  }
+    * {
+        box-sizing: border-box;
+        font-family: "Nunito", sans-serif;
+    }
 }
 
 .container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1440px;
-
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1298px;
 }
 
 img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }

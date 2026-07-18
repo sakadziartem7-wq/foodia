@@ -9,6 +9,14 @@
         padding: 84px 0 102px;
     }
 
+    &__images {
+        max-width: 578px;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+    }
 
     &__intem {
         display: flex;
@@ -40,7 +48,6 @@
         font-style: normal;
         font-weight: 600;
         line-height: 120%;
-
     }
 
     &__item-text {
@@ -52,6 +59,5 @@
         font-style: normal;
         font-weight: 500;
         line-height: 130%;
-
     }
 }

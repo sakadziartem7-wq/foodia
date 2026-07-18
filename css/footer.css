@@ -68,6 +68,9 @@
   display: flex;
   flex-direction: column;
 }
+.footer__coleum svg {
+  margin-left: 7px;
+}
 .footer__link {
   text-decoration: none;
   color: #5C5C5C;
@@ -105,10 +108,6 @@
 }
 .footer__lang-copy {
   margin-left: auto;
-}
-
-svg {
-  margin-left: 7px;
 }
 
 /*# sourceMappingURL=footer.css.map */

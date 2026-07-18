@@ -6,14 +6,14 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 84px;
+        padding: 84px 0;
         gap: 24px;
     }
 
     &__item {
-        padding: 22px 15px 64px;
+        padding: 22px 15px;
         list-style: none;
-        width: 307px;
+        width: calc(25% - 18px);
         height: 330px;
         border-radius: 20px;
         background: #FFF;
@@ -26,9 +26,7 @@
     }
 
     &__title {
-        margin: 20px 33px;
-        height: 36px;
-        width: 176px;
+        margin: 20px auto 16px;
         color: #000;
         font-size: 30px;
         font-style: normal;
@@ -38,15 +36,11 @@
     }
 
     &__text {
-        width: 277px;
-        height: 72px;
+        margin: 0 auto 18px;
         color: #666;
         font-size: 20px;
-        font-style: normal;
         font-weight: 500;
         line-height: 120%;
-        padding-right: 16px;
-
     }
 
     &__link {
