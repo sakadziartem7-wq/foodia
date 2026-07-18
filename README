@@ -1,0 +1,15 @@
+
+## Запуск проекта
+
+1. Клонируйте репозиторий.
+2. Запустите компиляцию SCSS:
+
+```bash
+sass --watch scss:css
+
+## Макет
+
+Дизайн проекта выполнен по макету Figma:
+https://www.figma.com/design/Pa9VfYLgIm4wI0FzJSYad2/Restaurant-Food-Landing-page😋--Community-
+
+Верстка выполнена с использованием HTML и SCSS.

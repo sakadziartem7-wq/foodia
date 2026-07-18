@@ -1,0 +1,65 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 38px;
+}
+.header__button {
+  margin-left: 79px;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  color: #FFF;
+  background-color: #F03328;
+  padding: 17px 43px;
+  border-radius: 38px;
+  border: 2px solid #F03328;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.header__button:hover {
+  background: transparent;
+}
+.header__menu {
+  height: 32px;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  display: flex;
+  white-space: nowrap;
+  gap: 71px;
+}
+.header__link {
+  position: relative;
+  text-decoration: none;
+  color: #3A3A3A;
+  transition: color 0.3s;
+}
+.header__link:hover {
+  color: #F03328;
+}
+.header__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0;
+  height: 2px;
+  background: #F03328;
+  transition: width 0.3s;
+}
+.header__link:hover::after {
+  width: 100%;
+}
+
+/*# sourceMappingURL=header.css.map */
