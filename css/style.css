@@ -266,6 +266,11 @@ img {
     width: calc(50% - 18px);
   }
 }
+@media (max-width: 534px) {
+  .quality__item {
+    width: calc(100% - 18px);
+  }
+}
 .quality__image {
   width: 100px;
   height: 100px;
