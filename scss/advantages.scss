@@ -21,10 +21,6 @@
             align-items: center;
         }
 
-        @media (max-width :694px) {
-            
-        }
-
     }
 
     &__images {
@@ -49,8 +45,7 @@
 
     &__title {
         margin: 0;
-        width: 639px;
-        height: 60px;
+        max-width: 639px;
         color: #2D2D2D;
         font-size: 50px;
         font-style: normal;
@@ -58,29 +53,38 @@
         line-height: 120%;
 
         @media (max-width :694px) {
-            font-size: 40px;
+            font-size: 30px;
                
         }
     }
 
     &__item-title {
-        width: 487px;
+        max-width: 487px;
         align-self: stretch;
         color: #000;
         font-size: 31px;
         font-style: normal;
         font-weight: 600;
         line-height: 120%;
+
+          @media (max-width :494px) {
+            font-size: 20px;
+               
+        }
     }
 
     &__item-text {
-        width: 487px;
-        height: 78px;
+        max-width: 487px;
         align-self: stretch;
         color: #404040;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
         line-height: 130%;
+
+        @media (max-width :494px) {
+            font-size: 10px;
+               
+        }
     }
 }
