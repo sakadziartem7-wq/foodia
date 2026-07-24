@@ -6,24 +6,22 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-left: 75px;
+    }
+
+    &__image,
+    &__card {
+        max-width: 50%;
     }
 
     &__title {
-        width: 458px;
-        height: 60px;
         font-size: 50px;
         font-weight: 700;
         line-height: 120%;
     }
 
     &__text {
-        width: 632px;
-        height: 192px;
-        align-self: stretch;
         color:  #3D3D3D;
         font-size: 25px;
-        font-style: normal;
         font-weight: 400;
         line-height: 130%;
 
