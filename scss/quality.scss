@@ -8,16 +8,33 @@
         justify-content: space-between;
         padding: 84px 0;
         gap: 24px;
+
+
+        @media (max-width:922px) {
+            flex-wrap: wrap;
+
+        }
+
     }
 
     &__item {
         padding: 22px 15px;
         list-style: none;
         width: calc(25% - 18px);
-        height: 330px;
         border-radius: 20px;
         background: #FFF;
         text-align: center;
+
+        @media (max-width:922px) {
+            width: calc(50% - 18px);
+
+        }
+
+        @media (max-width:534px) {
+            width: calc(100% - 18px);
+
+        }
+
     }
 
     &__image {
@@ -33,6 +50,11 @@
         font-weight: 600;
         line-height: 120%;
 
+
+        @media (max-width:980px) {
+            font-size: 20px;
+
+        }
     }
 
     &__text {
@@ -41,12 +63,17 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 120%;
+
+        @media (max-width:1160px) {
+            font-size: 14px;
+
+        }
     }
 
     &__link {
         width: 100%;
         height: 24px;
-        color:  #2d2d2d;
+        color: #2d2d2d;
         text-decoration: none;
         text-align: center;
         font-size: 20px;
