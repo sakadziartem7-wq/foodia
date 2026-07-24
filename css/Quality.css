@@ -9,7 +9,7 @@
   padding: 84px 0;
   gap: 24px;
 }
-@media (max-width: 922px) {
+@media (max-width: 1024px) {
   .quality__grid {
     flex-wrap: wrap;
   }
@@ -22,7 +22,7 @@
   background: #FFF;
   text-align: center;
 }
-@media (max-width: 922px) {
+@media (max-width: 1024px) {
   .quality__item {
     width: calc(50% - 18px);
   }

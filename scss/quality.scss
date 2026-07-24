@@ -9,12 +9,9 @@
         padding: 84px 0;
         gap: 24px;
 
-
-        @media (max-width:922px) {
+        @media (max-width: 1024px) {
             flex-wrap: wrap;
-
         }
-
     }
 
     &__item {
@@ -25,16 +22,13 @@
         background: #FFF;
         text-align: center;
 
-        @media (max-width:922px) {
+        @media (max-width: 1024px) {
             width: calc(50% - 18px);
-
         }
 
-        @media (max-width:534px) {
+        @media (max-width: 534px) {
             width: calc(100% - 18px);
-
         }
-
     }
 
     &__image {
