@@ -427,7 +427,7 @@ img {
   list-style: none;
 }
 .food__top {
-  padding: 26px;
+  margin: 26px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -453,11 +453,8 @@ img {
   background: #fff;
 }
 .food__title {
-  margin-bottom: 26px;
-  height: 37px;
   color: #000;
   font-size: 31px;
-  font-style: normal;
   font-weight: 500;
   line-height: 120%;
 }
@@ -473,16 +470,22 @@ img {
 }
 .food__btn:hover {
   background: transparent;
+  color: #F03328;
+}
+@media (max-width: 1354px) {
+  .food__btn {
+    margin-left: 12px;
+  }
 }
 .food__titl {
-  margin: 0 276px;
-  height: 66px;
+  margin: 0 auto;
+  max-width: 746px;
   color: #1F1F1F;
   text-align: center;
   font-size: 55px;
-  font-style: normal;
   font-weight: 700;
   line-height: 120%;
+  white-space: nowrap;
 }
 .food__text {
   margin: 18px 276px;
@@ -490,7 +493,6 @@ img {
   color: #5C5C5C;
   text-align: center;
   font-size: 25px;
-  font-style: normal;
   font-weight: 400;
   line-height: 120%;
 }
