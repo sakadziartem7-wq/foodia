@@ -113,5 +113,29 @@
   color: #ff9e0c;
   background-color: #fef4e5;
 }
+.footer .copy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .copy__list {
+  margin: auto;
+  gap: 32px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.footer .copy__item {
+  color: #5C5F66;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.footer .copy__copywright {
+  color: #A6A7AB;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
 
 /*# sourceMappingURL=footer.css.map */

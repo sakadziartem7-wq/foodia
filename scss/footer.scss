@@ -117,8 +117,6 @@
             }
         }
 
-        &__arrow {}
-
         &__new {
             border: 1px solid #ff9e0c;
             border-radius: 64px;
@@ -134,6 +132,33 @@
     }
 
     .copy {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+           
+        &__list {
+            margin: auto;
+            gap: 32px;
+            display: flex;
+            align-items: center;
+            list-style: none;
+    } 
 
+      &__item {
+            color: #5C5F66;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+
+      }
+
+
+      &__copywright {
+        color:  #A6A7AB;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+
+      }
     }
 }
