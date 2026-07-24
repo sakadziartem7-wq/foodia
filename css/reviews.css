@@ -39,7 +39,6 @@
 .reviews__dots {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .reviews__dots-wrapper {
   display: flex;
@@ -57,12 +56,24 @@
 .reviews__dots-dvt:hover {
   background-color: red;
 }
-@media (max-width: 768px) {
-  .reviews__dots-dvt {
-    width: 12px;
-    height: 12px;
-    border-width: 1px;
-  }
+.reviews__author {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+.reviews__name {
+  color: #F03328;
+  font-size: 24px;
+  line-height: 130%;
+  font-weight: 700;
+  margin: 0 0 4px 18px;
+}
+.reviews__job {
+  margin: 0 18px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
 }
 
 /*# sourceMappingURL=reviews.css.map */
