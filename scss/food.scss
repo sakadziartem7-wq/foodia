@@ -20,7 +20,8 @@
     }
 
     &__min {
-        padding: 0 0 48px 20px;
+        padding-bottom: 56px;
+        padding-left: 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -31,7 +32,6 @@
         margin-right: 20px;
         color: #000;
         font-size: 34px;
-        font-style: normal;
         font-weight: 700;
         line-height: 120%;
 
@@ -42,6 +42,15 @@
         border-radius: 18px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
         background: #fff;
+
+  @media (max-width: 1290px) {
+            width: calc(50% - 13px); 
+        }
+
+         @media (max-width: 950px) {
+            width: 100%; 
+        }
+
     }
 
     &__title {
@@ -49,8 +58,10 @@
         font-size: 31px;
         font-weight: 500;
         line-height: 120%;
-       
-      
+
+          @media (max-width: 450px) {
+            font-size: 20px; 
+        }
     }
     &__btn {
         padding: 10px 24px;
@@ -68,10 +79,7 @@
         color: #F03328;
         
         }
-   @media (max-width :1354px) {
-            margin-left: 12px;
-            
-        }
+   
    }
   
     &__titl {
@@ -83,17 +91,32 @@
         font-weight: 700;
         line-height: 120%;
          white-space: nowrap;
+
+          @media (max-width: 720px) {
+            font-size: 34px; 
+        }
+
+        
+          @media (max-width: 450px) {
+            font-size: 17px; 
+        }
     }
 
     &__text {
-        margin: 18px 276px;
+        margin: 0 auto;
         align-self: stretch;
         color:#5C5C5C;
         text-align: center;
         font-size: 25px;
         font-weight: 400;
         line-height: 120%;
+
+          @media (max-width: 950px) {
+            
+            font-size: 17px; 
+        }
     }
+
     
 }
 
